@@ -1,14 +1,12 @@
 package com.models;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.sql.Timestamp;
+import java.util.List;
 
 
 @Entity
@@ -25,4 +23,9 @@ public class AppUser {
     String lastName;
     String password;
     Timestamp lastLogin;
+    @OneToMany
+    List<AppUser> followers;
+
+    @OneToMany
+    List<AppUser> following;
 }
