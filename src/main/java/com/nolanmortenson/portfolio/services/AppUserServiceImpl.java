@@ -1,7 +1,7 @@
-package com.services;
+package com.nolanmortenson.portfolio.services;
 
-import com.dto.AppUserDTO;
-import com.models.AppUser;
+import com.nolanmortenson.portfolio.dto.AppUserDTO;
+import com.nolanmortenson.portfolio.models.AppUser;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

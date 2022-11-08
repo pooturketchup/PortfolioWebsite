@@ -1,4 +1,4 @@
-package com.models;
+package com.nolanmortenson.portfolio.models;
 
 import javax.persistence.*;
 

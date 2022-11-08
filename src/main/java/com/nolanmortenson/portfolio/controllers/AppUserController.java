@@ -1,22 +1,27 @@
-package com.controllers;
+package com.nolanmortenson.portfolio.controllers;
 
-import com.dto.AppUserDTO;
-import com.models.AppUser;
-import com.services.AppUserServiceImpl;
+import com.nolanmortenson.portfolio.dto.AppUserDTO;
+import com.nolanmortenson.portfolio.models.AppUser;
+import com.nolanmortenson.portfolio.services.AppUserService;
+import com.nolanmortenson.portfolio.services.AppUserServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/v1/users")
 @AllArgsConstructor
 @CrossOrigin
 public class AppUserController {
 
-    private final AppUserServiceImpl appUserService;
+    private final AppUserService appUserService;
+
+//    public AppUserController(AppUserService appUserService_)
+//    {
+//        appUserService = appUserService_;
+//    }
 
     @GetMapping
     public List<AppUserDTO> getAllUsers(){return appUserService.getAllUsers();}

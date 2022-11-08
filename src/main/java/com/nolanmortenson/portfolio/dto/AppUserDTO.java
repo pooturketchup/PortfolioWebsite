@@ -1,4 +1,4 @@
-package com.dto;
+package com.nolanmortenson.portfolio.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
