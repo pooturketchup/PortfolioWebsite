@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45797632-549a-4d32-83cb-07f2e14026e5" name="Changes" comment="creating database and fixing lombok -- added lombok properties and plugin path">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/PortfolioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/PortfolioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/controllers/AppUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/controllers/AppUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/dto/AppUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/dto/AppUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/mappers/MapStructMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/mappers/MapStructMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/models/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/models/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/repositories/AppUserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/repositories/AppUserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/services/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/services/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolanmortenson/portfolio/services/AppUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/nolanmortenson/portfolio/services/AppUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nolanmortenson/portfolio/PortfolioApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/test/java/com/nolanmortenson/portfolio/PortfolioApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2H5Jd5EKxklyKTf1gzLzfzQdhe6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "D:/WebDevProjects/WebsitePortfolio/PortfolioWebsite/Backend",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "d51bb391b4522312081bd58b06a74e93"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevProjects\WebsitePortfolio\PortfolioWebsite\Backend" />
+      <recent name="D:\WebDevProjects\WebsitePortfolio\PortfolioWebsite" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PortfolioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="portfolio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolanmortenson.portfolio.PortfolioApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nolanmortenson.portfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PortfolioApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45797632-549a-4d32-83cb-07f2e14026e5" name="Changes" comment="" />
+      <created>1667569094928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667569094928</updated>
+      <workItem from="1667569096132" duration="8388000" />
+      <workItem from="1667847418806" duration="4503000" />
+      <workItem from="1667912852013" duration="10639000" />
+      <workItem from="1667925538745" duration="101000" />
+    </task>
+    <task id="LOCAL-00001" summary="making project multi modular">
+      <created>1667849324019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667849324019</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creating database and fixing lombok -- added lombok properties and plugin path">
+      <created>1667925086295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667925086295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="making project multi modular" />
+    <MESSAGE value="creating database and fixing lombok -- added lombok properties and plugin path" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating database and fixing lombok -- added lombok properties and plugin path" />
+  </component>
+</project>
