@@ -19,6 +19,7 @@ public class AppUser {
     private Long id;
 
     String email;
+    String username;
     String firstName;
     String lastName;
     String password;
@@ -28,4 +29,17 @@ public class AppUser {
 
     @OneToMany
     List<AppUser> following;
+
+    public AppUser(String email, String username, String firstName, String lastName,
+                   String password, Timestamp timestamp, List<AppUser> followers, List<AppUser> following)
+    {
+        this.email = email;
+        this.username = username;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.password = password;
+        this.lastLogin = timestamp;
+        this.followers = followers;
+        this.following = following;
+    }
 }

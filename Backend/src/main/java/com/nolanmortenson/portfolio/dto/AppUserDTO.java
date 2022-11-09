@@ -13,6 +13,7 @@ import java.util.List;
 public class AppUserDTO {
     Long id;
     String email;
+    String username;
     String firstName;
     String lastName;
     Timestamp lastLogin;
